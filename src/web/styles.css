@@ -1,0 +1,31 @@
+
+.container {
+   
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "navbar navbar"
+                         "main aside"
+                         "footer footer";                  
+}
+
+nav {
+    background-color: black;
+    grid-area: navbar;
+}
+main {
+    background-color: beige;
+    grid-area: main;
+
+}
+aside {
+    background-color:yellow;
+    grid-area: aside;
+}
+
+footer {
+    background-color:blueviolet;
+    grid-area: footer;
+    
+}
+
